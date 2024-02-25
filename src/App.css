@@ -1,8 +1,43 @@
+body {
+  margin: 0;
+  background-color: #575757;
+}
+
 #root {
+  position: relative;
+  top: 100px;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem;
+  background-color: #fffd7b;
+  color: #bf59ff;
+  display: flex;
+  justify-content: center;
   text-align: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.stylr {
+  padding: 50px 40px;
+  margin: 100px;
+  background-color: #0d0700;
+
+  max-width: 300px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #2d2d2e;
+}
+
+button:hover {
+  background-color: white;
 }
 
 .logo {
@@ -12,7 +47,7 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ddec0baa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
